@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	android:id="@+id/widget32"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@drawable/main_header_selector" >
+	<ScrollView
+		android:id="@+id/layout"
+		android:layout_width="match_parent"
+		android:layout_height="fill_parent"
+		android:layout_marginTop="5dip">
+
+		<RelativeLayout
+		    android:id="@+id/widget34"
+		    android:layout_width="match_parent"
+		    android:layout_height="468dp" >
+
+			<TextView
+			    android:id="@+id/textViewAcademico"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_alignParentRight="true"
+			    android:layout_alignParentTop="true"
+			    android:gravity="center_horizontal"
+			    android:text="@string/title_Acad"
+			    android:textColor="#ffffffff"
+			    android:textSize="45sp" />
+
+			<ImageButton
+			    android:id="@+id/buttonCalendario"
+			    android:layout_width="131dp"
+			    android:layout_height="146dp"
+			    android:layout_alignParentRight="true"
+			    android:layout_alignTop="@+id/buttonCalouro"
+			    android:layout_marginRight="14dp"
+			    android:onClick="calendarioAca"
+			    android:background="@drawable/button_calendario" />
+			
+			<ImageButton
+			    android:id="@+id/buttonCalouro"
+			    android:layout_width="131dp"
+			    android:layout_height="146dp"
+			    android:layout_alignParentLeft="true"
+			    android:layout_below="@+id/textViewAcademico"
+			    android:layout_marginLeft="19dp"
+			    android:layout_marginTop="14dp"
+			    android:onClick="matriculaCal"
+			    android:background="@drawable/button_calouro" />
+
+			<ImageButton
+			    android:id="@+id/buttonFormatura"
+			    android:layout_width="131dp"
+			    android:layout_height="146dp"
+			    android:layout_alignLeft="@+id/buttonCalendario"
+			    android:layout_alignTop="@+id/buttonVeterano"
+			    android:onClick="formatura"
+			    android:background="@drawable/button_formatura" />
+			
+			<ImageButton
+			    android:id="@+id/buttonVeterano"
+			    android:layout_width="131dp"
+			    android:layout_height="146dp"
+			    android:layout_alignLeft="@+id/buttonCalouro"
+			    android:layout_below="@+id/buttonCalouro"
+			    android:layout_marginTop="14dp"
+			    android:onClick="matriculaVet"
+			    android:background="@drawable/button_veterano" />
+	
+		</RelativeLayout>
+	</ScrollView>
+</LinearLayout>

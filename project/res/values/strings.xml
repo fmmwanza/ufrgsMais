@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UFRGS</string>
+    <string name="title_Home">UFRGS</string>
+    <string name="title_Acad">Acadêmico</string>
+    <string name="title_BenOpo">Benefícios e Oportunidades</string>
+    <string name="title_CulEsp">Cultura e Esporte</string>
+    <string name="title_Fac">Facilidades</string>
+    <string name="title_Ing">Ingresso</string>
+    <string name="title_Ser">Serviços</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    <string name="realizando_testes">Realizando testes</string>
+    <string name="teste">Teste</string>
+    <string name="button2">Button</string>
+    <string name="home_ufrgs">Home UFRGS</string>
+    <string name="title_activity_text_from_db">TextFromDB</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

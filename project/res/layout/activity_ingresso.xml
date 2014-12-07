@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	android:id="@+id/widget32"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@drawable/main_header_selector" >
+	<ScrollView
+		android:id="@+id/layout"
+		android:layout_width="match_parent"
+		android:layout_height="fill_parent"
+		android:layout_marginTop="5dip">
+
+		<RelativeLayout
+		    android:id="@+id/widget34"
+		    android:layout_width="match_parent"
+		    android:layout_height="468dp" >
+
+			<TextView
+			    android:id="@+id/textViewIngresso"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_alignParentRight="true"
+			    android:layout_alignParentTop="true"
+			    android:gravity="center_horizontal"
+			    android:text="@string/title_Ing"
+			    android:textColor="#ffffffff"
+			    android:textSize="40sp" />
+
+			<ImageButton
+			    android:id="@+id/buttonVestibular"
+			    android:layout_width="131dp"
+			    android:layout_height="146dp"
+			    android:layout_alignParentRight="true"
+			    android:layout_alignTop="@+id/buttonCursos"
+			    android:layout_marginRight="14dp"
+			    android:onClick="vestibular"
+			    android:background="@drawable/button_vestibular" />
+						
+			<ImageButton
+			    android:id="@+id/buttonCursos"
+			    android:layout_width="131dp"
+			    android:layout_height="146dp"
+			    android:layout_alignParentLeft="true"
+			    android:layout_below="@+id/textViewIngresso"
+			    android:layout_marginLeft="19dp"
+			    android:layout_marginTop="14dp"
+			    android:onClick="cursos"
+			    android:background="@drawable/button_cursos" />
+
+			<ImageButton
+			    android:id="@+id/buttonSisu"
+			    android:layout_width="131dp"
+			    android:layout_height="146dp"
+			    android:layout_alignLeft="@+id/buttonVestibular"
+			    android:layout_alignTop="@+id/buttonCotas"
+			    android:onClick="sisu"
+			    android:background="@drawable/button_sisu2" />
+			
+			<ImageButton
+			    android:id="@+id/buttonCotas"
+			    android:layout_width="131dp"
+			    android:layout_height="146dp"
+			    android:layout_alignLeft="@+id/buttonCursos"
+			    android:layout_below="@+id/buttonCursos"
+			    android:layout_marginTop="14dp"
+			    android:onClick="cotas"
+			    android:background="@drawable/button_cotas" />
+
+			<ImageButton
+			    android:id="@+id/buttonPassos"
+			    android:layout_width="131dp"
+			    android:layout_height="146dp"
+			    android:layout_alignLeft="@+id/buttonCotas"
+			    android:layout_below="@+id/buttonCotas"
+			    android:layout_marginTop="14dp"
+			    android:onClick="passos"
+			    android:background="@drawable/button_passos" />
+	 	
+		</RelativeLayout>
+	</ScrollView>
+</LinearLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	android:id="@+id/widget32"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@drawable/main_header_selector" >
+	<ScrollView
+		android:id="@+id/layout"
+		android:layout_width="match_parent"
+		android:layout_height="fill_parent"
+		android:layout_marginTop="5dip">
+
+		<RelativeLayout
+		    android:id="@+id/widget34"
+		    android:layout_width="match_parent"
+		    android:layout_height="468dp" >
+
+			<TextView
+			    android:id="@+id/textViewCulturaEsporte"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_alignParentRight="true"
+			    android:layout_alignParentTop="true"
+			    android:gravity="center_horizontal"
+			    android:text="@string/title_CulEsp"
+			    android:textColor="#ffffffff"
+			    android:textSize="40sp" />
+
+			<ImageButton
+			    android:id="@+id/buttonEsporte"
+			    android:layout_width="131dp"
+			    android:layout_height="146dp"
+			    android:layout_alignParentRight="true"
+			    android:layout_alignTop="@+id/buttonJornal"
+			    android:layout_marginRight="14dp"
+			    android:onClick="esporte"
+			    android:background="@drawable/button_esporte" />
+			
+			<ImageButton
+			    android:id="@+id/buttonJornal"
+			    android:layout_width="131dp"
+			    android:layout_height="146dp"
+			    android:layout_alignParentLeft="true"
+			    android:layout_below="@+id/textViewCulturaEsporte"
+			    android:layout_marginLeft="19dp"
+			    android:layout_marginTop="14dp"
+			    android:onClick="jornal"
+			    android:background="@drawable/button_jornal" />
+
+			<ImageButton
+			    android:id="@+id/buttonAgenda"
+			    android:layout_width="131dp"
+			    android:layout_height="146dp"
+			    android:layout_alignLeft="@+id/buttonEsporte"
+			    android:layout_alignTop="@+id/buttonRadio"
+			    android:onClick="agenda"
+			    android:background="@drawable/button_agenda" />
+			
+			<ImageButton
+			    android:id="@+id/buttonRadio"
+			    android:layout_width="131dp"
+			    android:layout_height="146dp"
+			    android:layout_alignLeft="@+id/buttonJornal"
+			    android:layout_below="@+id/buttonJornal"
+			    android:layout_marginTop="14dp"
+			    android:onClick="radio"
+			    android:background="@drawable/button_radio" />
+	
+		</RelativeLayout>
+	</ScrollView>
+</LinearLayout>

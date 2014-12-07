@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	android:id="@+id/widget32"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@drawable/main_header_selector" >
+	<ScrollView
+		android:id="@+id/layout"
+		android:layout_width="match_parent"
+		android:layout_height="fill_parent"
+		android:layout_marginTop="5dip">
+
+		<RelativeLayout
+		    android:id="@+id/widget34"
+		    android:layout_width="match_parent"
+		    android:layout_height="468dp" >
+
+			<TextView
+			    android:id="@+id/textViewBenefOport"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_alignParentRight="true"
+			    android:layout_alignParentTop="true"
+			    android:gravity="center_horizontal"
+			    android:text="@string/title_BenOpo"
+			    android:textColor="#ffffffff"
+			    android:textSize="40sp" />
+
+			<ImageButton
+			    android:id="@+id/buttonAuxilios"
+			    android:layout_width="131dp"
+			    android:layout_height="146dp"
+			    android:layout_alignParentRight="true"
+			    android:layout_alignTop="@+id/buttonMobilidade"
+			    android:layout_marginRight="14dp"
+			    android:onClick="auxilios"
+			    android:background="@drawable/button_auxilios" />
+						
+			<ImageButton
+			    android:id="@+id/buttonMobilidade"
+			    android:layout_width="131dp"
+			    android:layout_height="146dp"
+			    android:layout_alignParentLeft="true"
+			    android:layout_below="@+id/textViewBenefOport"
+			    android:layout_marginLeft="19dp"
+			    android:layout_marginTop="14dp"
+			    android:onClick="mobilidade"
+			    android:background="@drawable/button_mobilidade" />
+
+			<ImageButton
+			    android:id="@+id/buttonMonitoria"
+			    android:layout_width="131dp"
+			    android:layout_height="146dp"
+			    android:layout_alignLeft="@+id/buttonAuxilios"
+			    android:layout_alignTop="@+id/buttonBolsas"
+			    android:onClick="monitoria"
+			    android:background="@drawable/button_monitoria" />
+			
+			<ImageButton
+			    android:id="@+id/buttonBolsas"
+			    android:layout_width="131dp"
+			    android:layout_height="146dp"
+			    android:layout_alignLeft="@+id/buttonMobilidade"
+			    android:layout_below="@+id/buttonMobilidade"
+			    android:layout_marginTop="14dp"
+			    android:onClick="bolsas"
+			    android:background="@drawable/button_bolsas" />
+
+			<ImageButton
+			    android:id="@+id/buttonIc"
+			    android:layout_width="131dp"
+			    android:layout_height="146dp"
+			    android:layout_alignLeft="@+id/buttonBolsas"
+			    android:layout_below="@+id/buttonBolsas"
+			    android:layout_marginTop="14dp"
+			    android:onClick="ic"
+			    android:background="@drawable/button_ic" />
+	 	
+		</RelativeLayout>
+	</ScrollView>
+</LinearLayout>

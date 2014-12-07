@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	android:id="@+id/widget32"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@drawable/main_header_selector" >
+	<ScrollView
+		android:id="@+id/layout"
+		android:layout_width="match_parent"
+		android:layout_height="fill_parent"
+		android:layout_marginTop="5dip">
+
+		<RelativeLayout
+		    android:id="@+id/widget34"
+		    android:layout_width="match_parent"
+		    android:layout_height="468dp" >
+
+			<TextView
+			    android:id="@+id/textViewFacilidades"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_alignParentRight="true"
+			    android:layout_alignParentTop="true"
+			    android:gravity="center_horizontal"
+			    android:text="@string/title_Fac"
+			    android:textColor="#ffffffff"
+			    android:textSize="40sp" />
+
+			<ImageButton
+			    android:id="@+id/buttonMapas"
+			    android:layout_width="131dp"
+			    android:layout_height="146dp"
+			    android:layout_alignParentRight="true"
+			    android:layout_alignTop="@+id/buttonLinhas"
+			    android:layout_marginRight="14dp"
+			    android:onClick="mapas"
+			    android:background="@drawable/button_mapas" />
+			
+			<ImageButton
+			    android:id="@+id/buttonLinhas"
+			    android:layout_width="131dp"
+			    android:layout_height="146dp"
+			    android:layout_alignParentLeft="true"
+			    android:layout_below="@+id/textViewFacilidades"
+			    android:layout_marginLeft="19dp"
+			    android:layout_marginTop="14dp"
+			    android:onClick="linhasOnibus"
+			    android:background="@drawable/button_linhas" />
+
+			<ImageButton
+			    android:id="@+id/buttonTelefones"
+			    android:layout_width="131dp"
+			    android:layout_height="146dp"
+			    android:layout_alignLeft="@+id/buttonMapas"
+			    android:layout_alignTop="@+id/buttonServicos"
+			    android:onClick="telefones"
+			    android:background="@drawable/button_telefones" />
+			
+			<ImageButton
+			    android:id="@+id/buttonServicos"
+			    android:layout_width="131dp"
+			    android:layout_height="146dp"
+			    android:layout_alignLeft="@+id/buttonLinhas"
+			    android:layout_below="@+id/buttonLinhas"
+			    android:layout_marginTop="14dp"
+			    android:onClick="servicos"
+			    android:background="@drawable/button_servicos" />
+	
+		</RelativeLayout>
+	</ScrollView>
+</LinearLayout>
